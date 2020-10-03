@@ -64,7 +64,7 @@ _global_script_class_icons={
 
 config/name="tube-climber"
 run/main_scene="res://main.tscn"
-config/icon="res://icon.png"
+config/icon="res://assets/images/icon.png"
 
 [autoload]
 
@@ -76,4 +76,4 @@ Global="*res://src/global.gd"
 
 [rendering]
 
-environment/default_environment="res://default_env.tres"
+environment/default_environment="res://src/default_env.tres"
