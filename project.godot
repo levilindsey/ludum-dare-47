@@ -1,0 +1,79 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "CameraController",
+"language": "GDScript",
+"path": "res://src/camera_controller.gd"
+}, {
+"base": "Node2D",
+"class": "CanvasLayers",
+"language": "GDScript",
+"path": "res://src/canvas_layers.gd"
+}, {
+"base": "WindowDialog",
+"class": "CreditsPanel",
+"language": "GDScript",
+"path": "res://src/panels/credits_panel.gd"
+}, {
+"base": "Node2D",
+"class": "Level",
+"language": "GDScript",
+"path": "res://src/level.gd"
+}, {
+"base": "Node",
+"class": "Main",
+"language": "GDScript",
+"path": "res://main.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "Player",
+"language": "GDScript",
+"path": "res://src/player/player.gd"
+}, {
+"base": "Node2D",
+"class": "PlayerAnimator",
+"language": "GDScript",
+"path": "res://src/player/player_animator.gd"
+}, {
+"base": "Panel",
+"class": "UtilityPanel",
+"language": "GDScript",
+"path": "res://src/panels/utility_panel.gd"
+} ]
+_global_script_class_icons={
+"CameraController": "",
+"CanvasLayers": "",
+"CreditsPanel": "",
+"Level": "",
+"Main": "",
+"Player": "",
+"PlayerAnimator": "",
+"UtilityPanel": ""
+}
+
+[application]
+
+config/name="tube-climber"
+run/main_scene="res://main.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+Time="*res://src/utils/time.gd"
+Utils="*res://src/utils/utils.gd"
+Geometry="*res://src/utils/geometry.gd"
+DrawUtils="*res://src/utils/draw_utils.gd"
+Global="*res://src/global.gd"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
