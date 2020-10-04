@@ -98,6 +98,13 @@ Geometry="*res://src/utils/geometry.gd"
 DrawUtils="*res://src/utils/draw_utils.gd"
 Global="*res://src/global.gd"
 
+[display]
+
+window/size/width=480
+window/size/height=480
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+
 [input]
 
 jump={
