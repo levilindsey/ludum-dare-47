@@ -86,7 +86,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="tube-climber"
+config/name="Stuck in a loop!"
 run/main_scene="res://main.tscn"
 config/icon="res://assets/images/icon.png"
 
