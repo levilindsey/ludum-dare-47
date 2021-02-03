@@ -1,6 +1,6 @@
 # tube-climber
 
-_**Demo: https://levilindsey.github.io/tube-climber/dist/tube-climber.html**_
+_**Demo: https://levilindsey.github.io/ludum-dare-47/dist/index.html**_
 
 _**Ludum Dare 47 Submission: https://ldjam.com/events/ludum-dare/47/stuck-in-an-inner-tube/**_
 
